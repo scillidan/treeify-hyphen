@@ -1,6 +1,6 @@
 {
-  "name": "treeify",
-  "version": "1.1.0",
+  "name": "treeify-hyphen",
+  "version": "0.1.1",
   "author": "Luke Plaster <notatestuser@gmail.com>",
   "description": "converts a JS object into a nice and readable tree structure for the console",
   "license": "MIT",
@@ -10,19 +10,33 @@
   "main": "./treeify",
   "repository": {
     "type": "git",
-    "url": "https://github.com/notatestuser/treeify.git"
+    "url": "git+https://github.com/scillidan/treeify-hyphen.git"
   },
   "keywords": [
-    "object", "tree", "print", "console", "pretty"
+    "object",
+    "tree",
+    "print",
+    "console",
+    "pretty"
   ],
   "devDependencies": {
     "vows": "git://github.com/Filirom1/vows.git#expect"
   },
-  "licenses": [{
-    "type": "MIT",
-    "url": "http://lp.mit-license.org/"
-  }],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://lp.mit-license.org/"
+    }
+  ],
   "engines": {
     "node": ">=0.6"
+  },
+  "bugs": {
+    "url": "https://github.com/scillidan/treeify-hyphen/issues"
+  },
+  "homepage": "https://github.com/scillidan/treeify-hyphen#readme",
+  "directories": {
+    "example": "examples",
+    "test": "test"
   }
 }
