@@ -16,11 +16,11 @@
 }(this, function() {
 
   function makePrefix(key, last) {
-    var str = (last ? '-' : '-');
+    var str = (last ? '' : '');
     if (key) {
       str += '- ';
     } else {
-      str += '--';
+      str += '';
     }
     return str;
   }
